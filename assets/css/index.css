@@ -845,7 +845,11 @@ h2 span {
     cursor:pointer;
     height:48px;
     background:var(--white);
+    transition: 0.2s;
     border:2px solid var(--accent)
+}
+.c-form__clip:hover {
+    background: #C3C3C3;
 }
 .c-form__clip input {
     position:absolute;
