@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>loremIpsum</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" href="*">
+    <script defer="defer" src="index.js"></script>
+    <link type="text/css" href="assets/css/index.css" rel="stylesheet">
+</head>
+<body>
+<header class="c-header">
+    <div class="c-header__wrapper">
+        <div class="c-header__column">
+            <a class="c-header__logo" href="/">LoremIpsum.<span>Net</span></a>
+        </div>
+        <div class="c-header__column hidden-tab">
+            <div class="c-header__nav">
+                <ul>
+                    <li><a class="smooth-scroll" href="business.html">Бизнес</a></li>
+                    <li><a class="smooth-scroll" href="about.html">О нас</a></li>
+                    <li><a class="smooth-scroll" href="prices.html">Цены</a></li>
+                    <li><a class="smooth-scroll" href="checkout.html">Оформить заказ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="c-header__column hidden flex-tab">
+            <div class="c-header__menu-btn menuBtn">
+                <img src="assets/icons/icon-menu.svg" alt="menu">
+                <img src="assets/icons/icon-menu2.svg" alt="menu">
+            </div>
+            <div class="c-header__menu hidden">
+                <ul>
+                    <li><a class="smooth-scroll" href="business.html">Бизнес</a></li>
+                    <li><a class="smooth-scroll" href="about.html">О нас</a></li>
+                    <li><a class="smooth-scroll" href="prices.html">Цены</a></li>
+                    <li><a class="smooth-scroll" href="checkout.html">Оформить<br>заказ</a></li>
+                </ul>
+                <div class="c-header__menu--contacts">
+                    <div class="c-header__menu--contact">
+                        <a class="c-btn c-btn__accent" href="*">
+                            <img src="assets/icons/vk2.svg" alt="vk">Мы вконтакте
+                        </a>
+                    </div>
+                    <div class="c-header__menu--contact">
+                        <a class="c-btn" href="mailto:info@ipsum228.com">
+                            <img src="assets/icons/email.svg" alt="email">info@ipsum228.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="s-container bg-image cover-tab" style="background-image:url(assets/images/background-banner.jpg)">
+        <div class="s-wrapper">
+            <div class="s-column">
+                <div class="c-banner">
+                    <div class="c-banner__wrap">
+                        <div class="c-banner__title">
+                            <h1>
+                                <span>Lorem ipsum</span> dolor sit<br>amet consectetur <span>adipiscing</span>
+                            </h1>
+                        </div>
+                        <div class="c-banner__description">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+                            <ul>
+                                <li>Totam rem aperiam eaque ipsa</li>
+                                <li>Sit voluptatem accusantium doloremque laudantium</li>
+                                <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+                            </ul>
+                        </div>
+                        <div class="c-banner__buttons">
+                            <button class="c-banner__btn c-btn c-btn__accent jsActionGetPopupContact">заказать</button>
+                            <a class="c-banner__btn c-btn" href="*">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="s-container" style="background-image:url(assets/images/background-pattern.png)">
+        <div class="s-wrapper">
+            <div class="s-column">
+                <div class="c-checkout">
+                    <div class="c-checkout__title title">
+                        <h2>Оформление <span>Заказа</span></h2>
+                        <div class="text">Перед заполнением формы ознакомьтесь с нашей схемой работы!</div>
+                    </div>
+                    <div class="c-checkout__items">
+                        <div class="c-checkout__item">
+                            <div class="c-checkout__item-circle">
+                                <img src="assets/icons/stage-search.svg" alt="stage-icon">
+                            </div>
+                            <span>Lorem ipsum dolor amet</span>
+                        </div>
+                        <div class="c-checkout__item">
+                            <div class="c-checkout__item-circle">
+                                <img src="assets/icons/stage-percent.svg" alt="stage-icon">
+                            </div>
+                            <span>Сonsectetur adipiscing elit</span>
+                        </div>
+                        <div class="c-checkout__item">
+                            <div class="c-checkout__item-circle">
+                                <img src="assets/icons/stage-file.svg" alt="stage-icon">
+                            </div>
+                            <span>Sed do eiusmod tempor</span>
+                        </div>
+                        <div class="c-checkout__item">
+                            <div class="c-checkout__item-circle">
+                                <img src="assets/icons/stage-sms.svg" alt="stage-icon">
+                            </div>
+                            <span>Esse cillum dolore fugiat</span>
+                        </div>
+                        <div class="c-checkout__item">
+                            <div class="c-checkout__item-circle">
+                                <img src="assets/icons/stage-money.svg" alt="stage-icon">
+                            </div>
+                            <span>Excepteur sint occaecat cupidatat non proident</span>
+                        </div>
+                    </div>
+                    <form class="c-form" action="/upload" method="post">
+                        <div class="c-form__group">
+                            <div class="c-form__col">
+                                <ul class="c-form__select" id="select">
+                                    <li class="c-form__option init"><a>Выберите тип системы</a></li>
+                                    <li class="c-form__option hidden" data-value="value"><a>Выберите тип системы</a></li>
+                                    <li class="c-form__option hidden" data-value="value 1"><a>value 1</a></li>
+                                    <li class="c-form__option hidden" data-value="value 2"><a>value 2</a></li>
+                                </ul>
+                            </div>
+                            <div class="c-form__col">
+                                <input id="email" name="email" placeholder="Ваш e-mail">
+                            </div>
+                            <div class="c-form__col">
+                                <input id="name" name="name" placeholder="Ваше имя">
+                            </div>
+                        </div>
+                        <div class="c-form__group">
+                            <div class="c-form__col c-form__col-big">
+                                <div class="c-form__unloading">
+                                    <div class="c-form__unloading-title">Sed ut perspiciatis, unde omnis iste natus
+                                        <div class="grow"></div>
+                                        <span>75</span>%
+                                    </div>
+                                    <div class="c-form__unloading-line"><span style="left: 75%;"></span></div>
+                                </div>
+                            </div>
+                            <div class="c-form__col">
+                                <div class="c-form__clip">
+                                    <input type="file" id="fileInput" name="file">
+                                    <button type="button" onclick="document.getElementById('fileInput').click()">
+                                        <img src="assets/icons/file.svg" alt="file">Прикрепить файл
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-form__group">
+                            <button class="c-form__btn c-btn c-btn__accent c-btn__big" type="submit" name="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="c-footer">
+    <div class="c-footer__wrapper">
+        <div class="c-footer__column">
+            <div class="c-footer__privacy-policy">
+                <p>© 2018 «LoremIpsum.net» Все права защищены.</p>
+            </div>
+        </div>
+        <div class="c-footer__column">
+            <div class="c-footer__ways-to-pay">
+                <ul>
+                    <li><img src="assets/icons/logo-qiwi.svg" alt="logo-money">Qiwi wallet</li>
+                    <li><img src="assets/icons/logo-yandex.svg" alt="logo-money">Yandex Money</li>
+                    <li><img src="assets/icons/logo-webmoney.svg" alt="logo-money">Web Money</li>
+                </ul>
+            </div>
+        </div>
+        <div class="c-footer__column">
+            <div class="c-footer__contacts">
+                <div class="c-footer__contact">
+                    <a href="mailto:info@ipsum228.com">
+                        <img src="assets/icons/email.svg" alt="email">info@ipsum228.com
+                    </a>
+                </div>
+                <div class="c-footer__contact">
+                    <a href="*">
+                        <img src="assets/icons/vk.svg" alt="vk">Мы вконтакте
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
